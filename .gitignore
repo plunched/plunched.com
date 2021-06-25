@@ -1,0 +1,25 @@
+# vscode dbug
+*.vscode/*
+
+# mac debug
+.DS_Store
+
+# node modules
+*node_modules
+
+# ts dbug
+*.tsbuildinfo
+
+# postgres data
+*pgdata
+
+# js files
+dist
+
+# yarn dbug
+.yarn
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
