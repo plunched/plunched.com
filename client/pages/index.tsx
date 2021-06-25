@@ -1,7 +1,8 @@
+import React from "next";
 import { Layout, Main } from "@components";
 
 const IndexPage: React.FC = () => (
-  <Layout title="Home is here!">
+  <Layout>
     <Main />
   </Layout>
 );
