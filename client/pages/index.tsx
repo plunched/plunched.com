@@ -1,14 +1,9 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { Layout, Main } from "@components";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+const IndexPage: React.FC = () => (
+  <Layout title="Home is here!">
+    <Main />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
